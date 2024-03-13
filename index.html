@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissloom </title>
+    
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+       background-image: url(mountain.jpg);
+  
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+       background-repeat: no-repeat;
+    }
+    .left{
+        display: inline-block;
+      
+        position: absolute;
+        left: 60px;   
+        top: 20px;
+    }
+
+    .left img{
+        width:65px;
+        border-radius: 25px;
+    }
+
+    .left div{
+        line-height: 15px;
+        font-size: 35px;
+        
+    }
+
+    .mid{
+        display: block;
+        width: 40%;
+        margin:20px auto;
+        font-size: 25px;
+       
+    }
+    .right{
+        position: absolute;
+        right: 34px;   
+        top: 20px;     
+        display: inline-block;
+       
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        color: white;
+        display:inline-block;
+    }
+    .navbar li a{
+        color: rgb(34, 5, 5);
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+text-decoration: underline;
+color: grey;
+    }
+    .btn{
+  
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+
+        margin:0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 19px;
+
+    }
+    .btn:hover{
+        background-color: rgb(81, 14, 14);
+    }
+    .container{
+    
+        margin: 40px 179px;
+    padding: 43px 82px;
+        width: 33%;
+        border-radius: 15px;
+ }
+ .form-group input{
+ 
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+    color: black;
+   
+    text-align: center;
+    display: block;
+    width: 365px;
+    padding: 2px;
+    
+    margin: 13px auto;
+    font-size: 16px;
+ }
+ .form-group input:hover{
+    background-color: rgb(212, 179, 136);
+ }
+ .container h1{
+    text-align: center;
+ }
+ .container button{
+    display: block;
+    width: 377px;
+    margin: auto;
+    text-align: center;
+ }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+         <img src="logo.jpg" alt="logo"><br>
+         Blissloom
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About Us</a> </li>
+                <li> <a href="#">Counselling Center</a> </li>
+                <li> <a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+     <h1>Join with the best Counsellers of India Now!</h1>
+     <form action="Noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Mobile Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email ID">
+        </div>
+        <button class="btn">Submit</button>
+     </form>
+    </div>
+</body>
+</html>
